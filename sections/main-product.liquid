@@ -214,6 +214,9 @@
               {%- when 'custom_liquid' -%}
                 {{ block.settings.custom_liquid }}
               {%- when 'collapsible_tab' -%}
+                {% if block.settings.heading == 'Model Information' and product.metafields.models.model_info == blank %}
+                    {% continue %}
+                {% endif %}
                 <div class="product__accordion accordion quick-add-hidden" {{ block.shopify_attributes }}>
                   <details id="Details-{{ block.id }}-{{ section.id }}">
                     <summary>
