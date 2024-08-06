@@ -96,19 +96,19 @@
             "page": ""
           }
         },
+        "collapsible_tab_WcFzBy": {
+          "type": "collapsible_tab",
+          "settings": {
+            "heading": "Model Information",
+            "icon": "check_mark",
+            "content": "<p>{{ product.metafields.models.model_info.value.name.value }} is {{ product.metafields.models.model_info.value.height | metafield_tag }} and wearing size {{ product.metafields.model.wearing_size.value }}<\/p><p>{{ product.metafields.models.model_info.value.name.value }}'s measurements are:<\/p><p>Bust: {{ product.metafields.models.model_info.value.bust | metafield_tag }}<br\/>Waist: {{ product.metafields.models.model_info.value.waist | metafield_tag }}<br\/>Hips: {{ product.metafields.models.model_info.value.hips | metafield_tag }}<\/p>",
+            "page": ""
+          }
+        },
         "share": {
           "type": "share",
           "settings": {
             "share_label": "Share"
-          }
-        },
-        "collapsible_tab_WcFzBy": {
-          "type": "collapsible_tab",
-          "settings": {
-            "heading": "Collapsible row",
-            "icon": "check_mark",
-            "content": "<p>{{ product.metafields.models.model_info.value.name.value }} is {{ product.metafields.models.model_info.value.height | metafield_tag }} and wearing size {{ product.metafields.model.wearing_size.value }}<\/p><p>{{ product.metafields.models.model_info.value.name.value }}'s measurements are:<\/p><p>Bust: {{ product.metafields.models.model_info.value.bust | metafield_tag }}<br\/>Waist: {{ product.metafields.models.model_info.value.waist | metafield_tag }}<br\/>Hips: {{ product.metafields.models.model_info.value.hips | metafield_tag }}<\/p>",
-            "page": ""
           }
         }
       },
